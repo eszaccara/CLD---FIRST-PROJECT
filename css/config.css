@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap');
+
+.form-email {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 50%;
+    height: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2vw;
+    font-weight: bold;
+    border-radius: 1.5vw;
+    padding-top: 5vh;
+    visibility: hidden;
+}
+.form-email-active {
+    visibility: visible;
+}
+.form-email-active2 {
+    transition: .5s;
+    height: 70%;
+}
+
+.input-email {
+    width: 60%;
+    height: 3vh;
+    font-size: 1.2vw;
+    padding-bottom: .5vh;
+    margin-left: .2vw;
+}
+
+input {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    margin-top: 2vh;
+}
+
+.input-submit {
+    margin-top: 2vh;
+}
+
+.config-close {
+    position: absolute;
+    right: 1vw;
+    top: 1vw;
+    font-size: 1.2vw;
+    border: 1px solid black;
+    padding: .2vh .2vw .4vh .2vw; 
+    border-radius: 3vw;
+}
+.config-close:hover {
+    cursor: pointer;
+}
+
+
+
+
+.form-number {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 50%;
+    height: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2vw;
+    font-weight: bold;
+    border-radius: 1.5vw;
+    padding-top: 5vh;
+    visibility: hidden;
+}
+.form-number-active {
+    visibility: visible;
+}
+.form-number-active2 {
+    transition: .5s;
+    height: 70%;
+}
+.config-close2 {
+    position: absolute;
+    right: 1vw;
+    top: 1vw;
+    font-size: 1.2vw;
+    border: 1px solid black;
+    padding: .2vh .2vw .4vh .2vw; 
+    border-radius: 3vw;
+}
+.config-close2:hover {
+    cursor: pointer;
+}
+
+
+
+.form-password {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 50%;
+    height: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2vw;
+    font-weight: bold;
+    border-radius: 1.5vw;
+    padding-top: 5vh;
+    visibility: hidden;
+}
+.form-password-active {
+    visibility: visible;
+}
+.form-password-active2 {
+    transition: .5s;
+    height: 70%;
+}
+.config-close3 {
+    position: absolute;
+    right: 1vw;
+    top: 1vw;
+    font-size: 1.2vw;
+    border: 1px solid black;
+    padding: .2vh .2vw .4vh .2vw; 
+    border-radius: 3vw;
+}
+.config-close3:hover {
+    cursor: pointer;
+}
+
+.painel-config {
+    margin: 10vh auto;
+    width: 50%;
+    font-size: 1.5vw;
+    padding: 3vh 1vw;
+}
+.config-data {
+    border-bottom: 1px solid black;
+    margin-top: 3.5vh;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+}
+.icon-edit {
+    font-size: 1.6vw;
+    margin-bottom: 1vh;
+}
+.icon-edit:hover {
+    cursor: pointer;
+}
+.icon-editx {
+    font-size: 2vw;
+    margin-bottom: 1vh;
+}
